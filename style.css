@@ -1,0 +1,69 @@
+h5
+{
+    font-size:1.5rem;
+    margin-right:30px;
+    margin-left:20px;
+}
+select
+{
+    float:right;
+    height:30px;
+    width:120px;
+    font-size:16px;
+}
+option
+{
+        font-size:16px;
+}
+.text1
+{
+    width:98%;
+    height:40%;
+    background-color: lightgray;
+    font-size:20px;
+    border:2px solid black;
+    border-radius:4px;
+    margin-left:15px;
+    margin-top:15px;
+}
+.text2
+{
+    margin-left:15px;
+    width:98%;
+    height:20%;
+    background-color: black;
+    font-size:20px;
+    border:2px solid black;
+    border-radius:4px; 
+    color:white;   
+}
+.btn1
+{
+    background-color:rgb(255, 196, 0);
+    width:100px;
+    height:40px;
+    border-radius:10px;
+    outline:none;
+    font-size:18px;
+    font-weight:bold;
+     margin-left:18px;
+}
+.btn2
+{
+    background-color:yellow;
+    width:150px;
+    height:40px;
+    border-radius:10px;
+    outline:none;
+    font-size:18px;
+    margin-left:45%;
+    display: none;
+
+}
+ @media all and (max-width:600px)
+{
+.btn2
+{
+        margin-left:30%;
+}
+}
