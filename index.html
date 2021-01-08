@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Online Compiler</title>
+        <link rel="stylesheet" href="./style.css">
+        <script type="text/javascript" src="./compiler.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h5>Type your Code
+            
+        <select id="sel">
+        <option  value="0" name="op_ans">Python</option>
+        <option  value="4" name="op_ans">JavaScript</option>
+        <option  value="7" name="op_ans">C</option>
+        <option  value="77" name="op_ans">C++</option>
+        <option  value="8" name="op_ans">Java</option>
+        </select>
+            
+</h5>
+        <textarea id="textCode" placeholder="#Write your code" class="text1" spellcheck="false"></textarea><br><br>
+
+
+        <textarea id="textOutput" placeholder="OUTPUT" class="text2" spellcheck="false" disabled></textarea><br><br>
+        
+      <div>  <button class="btn1" id="compile" onclick="func()">Compile</button></div>
+      <!--  <button class="btn2" id="Load">Loading---</button> -->
+        <button id="Load" class="btn2 btn-danger">    Loading..
+    <span class="spinner-border spinner-border-sm"></span>
+  </button>
+    </body>
+</html>
